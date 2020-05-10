@@ -89,22 +89,9 @@ public class Movement : MonoBehaviour
 
             
 
-            CheckScore();
         }
     }
- void CheckScore()
-    {
-        if (Score == 10 ||Score>10)
-        {
-            winner.text = "Player Won";
-        }
-        else if (Score < 10)
-        {
-            winner.text = "Player Lost";
 
-        }
-    }
- 
 
     void Update()
     {
