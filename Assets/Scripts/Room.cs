@@ -14,7 +14,7 @@ public class Room : MonoBehaviour
     bool x = true, o = true;
     public InputField odp;
     public string ipAdress;
-    GameObject choosenCharacter; // Helicopter or Soldier
+    GameObject choosenCharacter; 
     public NetworkManager manager;
     // Use this for initialization
      public Text hintText;
